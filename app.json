@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "sorukutusu",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -17,6 +16,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.berat.sorukutusu",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -30,10 +31,17 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-build-properties"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e79702dd-36b4-4388-94ae-4cc3ef56a709"
+      }
     }
   }
 }

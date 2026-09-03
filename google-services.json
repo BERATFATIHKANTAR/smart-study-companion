@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695397860893",
+    "project_id": "ogrenci-kocu-9de1c",
+    "storage_bucket": "ogrenci-kocu-9de1c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695397860893:android:063502c44bd00c7fbea8f4",
+        "android_client_info": {
+          "package_name": "com.berat.ogrencikocu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVARSgYs1yp6rCVqCCXmwYjkkz0WR4NSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
